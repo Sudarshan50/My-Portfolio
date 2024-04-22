@@ -42,9 +42,8 @@ const Projects = () => {
               <img src={image} alt="" className="testimonial__img" />
               <h3 className="testimonial__name">{title}</h3>
             </SwiperSlide>
-          );
+          )
         })}
-        ;
       </Swiper>
     </section>
   );

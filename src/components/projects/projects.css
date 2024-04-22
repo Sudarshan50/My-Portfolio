@@ -10,14 +10,14 @@
     margin-bottom: var(--mb-3);
 }
 .testimonial__img{
-    width: 1300px;
+    width: 100%;
     margin-right: var(--mb-1);
 }
 
 .testimonial__name{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    margin-bottom: var(--mb-0-25);
+    margin-top: var(--mb-0-25);
 }
 
 .swiper-pagination-bullet{

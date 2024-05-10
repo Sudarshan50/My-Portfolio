@@ -4,12 +4,18 @@ import img3 from "../../assets/keeper.png"
 import img4 from "../../assets/jokeapi.png"
 import img5 from "../../assets/added.png";
 import img6 from "../../assets/roomrental.png";
+import img7 from "../../assets/chem.png";
 
 const Data =[{
-    id:1,
+    id:0,
     image:img6,
     title:"Full Stack Room Rental App",
 },{
+    id:6,
+    image:img7,
+    title:"Reactor X Optimate",
+},
+{
     id:1,
     image:img1,
     title:"Food Order App",

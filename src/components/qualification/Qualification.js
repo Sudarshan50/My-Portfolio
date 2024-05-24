@@ -178,10 +178,11 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
+            
 
             <div className="qualification__data">
-              <div></div>
-              <div>
+            <div></div>
+            <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
@@ -198,29 +199,15 @@ const Qualification = () => {
               </div>
             </div>
             <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">
-                    Technical Executive
-                </h3>
+              <div className="qualification__descr">
+                <h3 className="qualification__title">Techincal Executive</h3>
                 <span className="qualification__subtitle">
-                    Boards of student Welfare (BSW), IIT Delhi
+                Boards of Student Welfare (BSW), IIT Delhi
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt">2024-Current</i>
+                  <i className="uil uil-calendar-alt">2022</i>
                 </div>
               </div>
-            </div>
-            <div className="qualification__data">
-              <div className="qualification__descr">
-                <h3 className="qualification__title">
-                More to be Added...
-                </h3>
-                </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>

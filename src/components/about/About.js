@@ -14,7 +14,7 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Second-year IIT Delhi undergrad with a tech obsession! I juggle
+            Third-year IIT Delhi undergrad with a tech obsession! I juggle
             Competitive Programming for the thrill of problem-solving, Machine
             Learning for its future potential, and Web Development to bridge the
             tech gap. Always learning through online challenges and courses, I'm

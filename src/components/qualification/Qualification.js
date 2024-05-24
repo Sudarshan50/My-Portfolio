@@ -205,7 +205,7 @@ const Qualification = () => {
                 Boards of Student Welfare (BSW), IIT Delhi
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt">2022</i>
+                  <i className="uil uil-calendar-alt">2024</i>
                 </div>
               </div>
               <div>

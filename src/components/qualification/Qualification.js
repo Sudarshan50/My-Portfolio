@@ -23,8 +23,7 @@ const Qualification = () => {
             }
             onClick={() => toggleTab(1)}
           >
-            <i className="uil uil-graduation-cap qualification__icon">
-            </i>
+            <i className="uil uil-graduation-cap qualification__icon"></i>
             Education
           </div>
           <div
@@ -152,6 +151,21 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
+            <div className="qualification__data">
+              <div className="qualification__descr">
+                <h3 className="qualification__title">WorldQuant IQC Stage-1</h3>
+                <span className="qualification__subtitle">
+                  World Rank -17, AIR - 17, IIT Delhi Rank - 2
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt">2024</i>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -167,7 +181,7 @@ const Qualification = () => {
               <div className="qualification__descr">
                 <h3 className="qualification__title">Activity Head</h3>
                 <span className="qualification__subtitle">
-                Rendezvous'22, Asia's largest cultural fest
+                  Rendezvous'22, Asia's largest cultural fest
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt">2022</i>
@@ -178,18 +192,15 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
-            
 
             <div className="qualification__data">
-            <div></div>
-            <div>
+              <div></div>
+              <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">
-                  Activity Head
-                </h3>
+                <h3 className="qualification__title">Activity Head</h3>
                 <span className="qualification__subtitle">
                   Rendezvous'23, Asia's largest cultural fest
                 </span>
@@ -202,7 +213,7 @@ const Qualification = () => {
               <div className="qualification__descr">
                 <h3 className="qualification__title">Techincal Executive</h3>
                 <span className="qualification__subtitle">
-                Boards of Student Welfare (BSW), IIT Delhi
+                  Boards of Student Welfare (BSW), IIT Delhi
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt">2024</i>
@@ -211,6 +222,22 @@ const Qualification = () => {
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Intern</h3>
+                <span className="qualification__subtitle">
+                    Full Stack Developer Intern at Ignite
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt">June-2024 - July-2024</i>
+                </div>
               </div>
             </div>
           </div>

@@ -5,8 +5,14 @@ import img4 from "../../assets/jokeapi.png"
 import img5 from "../../assets/added.png";
 import img6 from "../../assets/roomrental.png";
 import img7 from "../../assets/chem.png";
+import img8 from "../../assets/as01.png";
 
-const Data =[{
+const Data =[
+    {
+    id:7,
+    image:img8,
+    title:"Chat Application",
+    },{
     id:0,
     image:img6,
     title:"Full Stack Room Rental App",

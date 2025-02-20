@@ -6,8 +6,20 @@ import img5 from "../../assets/added.png";
 import img6 from "../../assets/roomrental.png";
 import img7 from "../../assets/chem.png";
 import img8 from "../../assets/as01.png";
+import img9 from "../../assets/oauth.png";
+import img10 from "../../assets/bsw.png";
 
 const Data =[
+    {
+        id:8,
+        image:img9,
+        title:"Oauth For Clubs"
+    },
+    {
+        id:8,
+        image:img10,
+        title:"Acad Mentor Portal (BSW)"
+    },
     {
     id:7,
     image:img8,

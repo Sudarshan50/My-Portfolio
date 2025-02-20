@@ -2,7 +2,7 @@ import React from "react";
 import "./qualification.css";
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = React.useState(1);
+  const [toggleState, setToggleState] = React.useState(3);
 
   const toggleTab = (index) => {
     setToggleState(index);
@@ -98,7 +98,7 @@ const Qualification = () => {
                   Indian Institute of Technology, Delhi
                 </h3>
                 <span className="qualification__subtitle">
-                  Btech *CGPA:- 7.04(current)
+                  Btech *CGPA:- 6.8(current)
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt">2022-Present</i>
@@ -177,7 +177,7 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div className="qualification__descr">
                 <h3 className="qualification__title">Activity Head</h3>
                 <span className="qualification__subtitle">
@@ -191,7 +191,7 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-            </div>
+            </div> */}
 
             <div className="qualification__data">
               <div></div>
@@ -224,6 +224,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
+            
             <div className="qualification__data">
               <div></div>
               <div>
@@ -231,12 +232,43 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Intern</h3>
+                <h3 className="qualification__title">Techincal Executive</h3>
                 <span className="qualification__subtitle">
-                    Full Stack Developer Intern at Ignite
+                   Student Affair Council, IIT Delhi
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt">June-2024 - July-2024</i>
+                </div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div className="qualification__descr">
+                <h3 className="qualification__title">Intern</h3>
+                <span className="qualification__subtitle">
+                Full Stack Developer Intern at Ignite
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt">2024</i>
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Techincal Coordinator</h3>
+                <span className="qualification__subtitle">
+                   Rendezvous IIT Delhi 2024
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt">2024</i>
                 </div>
               </div>
             </div>

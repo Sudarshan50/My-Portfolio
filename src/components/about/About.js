@@ -21,7 +21,7 @@ const About = () => {
             on a mission to leverage this tech trinity to make a real-world
             impact!
           </p>
-          <a download="" href={CV} className="button button--flex">
+          <a download="" href={CV} className="button button--flex ">
             Download CV
             <svg
               class="button__icon"

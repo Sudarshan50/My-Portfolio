@@ -8,7 +8,7 @@ import { Autoplay,Pagination } from "swiper/modules";
 
 const Projects = () => {
   return (
-    <section className="testimonial container section">
+    <section className="testimonial container section" id="projects">
       <h2 className="section__title">My Projects</h2>
       <span className="section__subtitle">Personal Works</span>
 
